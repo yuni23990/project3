@@ -98,6 +98,9 @@ main section.title1 {
   /*換行*/
   text-align: center;
   /*置中*/
+  h2{
+            font-size: 1.3rem;
+        }
 }
 
 main section.title2 {
