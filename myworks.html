@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="auther" content=""> <!--作者-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集</title>
+    <meta name="description" content="歡迎來到我的作品集"/>
+    
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="shortcut icon" href="images/1.png" /> <!--加入圖標-->
+    <link rel="bookmark" href="images/1.png" /> <!--加入圖標-->
+</head>
+<body>
+    <!--標題-->
+    <header>
+        <div class="logo">
+            <img src="./images/1.png" alt="logo">
+            <h1><i>陳翌雋(Stanley)</i></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="#aa">看作品</a></li>
+                <li><a href="index.html">專長</a></li>
+                <li><a href="#aa">聯絡我</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--主要內容-->
+    <main>
+        <section class="title2">
+        <!--jquery3.3.1-CDN-->
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+        <script src="turn.js"></script> <!--要在jquery後---->
+        <!--jquery-把載好的.js拿出來-->
+
+        <!--作品集-->
+    
+        <div id="book">
+            <div style="background-image: url(title.jpg); background-size: 100% 100%;"></div>
+            <div style="background-image: url(a.jpg); background-size: cover;"></div>
+            <div style="background-image: url(book1.jpg); background-size: cover;"></div>
+            <div style="background-image: url(b.jpg); background-size: cover;"></div>
+            <div style="background-image: url(book2.jpg); background-size: cover;"></div>
+            <div style="background-image: url(c.jpg); background-size: cover;"></div>
+            <div style="background-image: url(book3.jpg); background-size: cover;"></div>
+            <div style="background-image: url(d.jpg); background-size: cover;"></div>
+            <div style="background-image: url(book4.jpg); background-size: cover;"></div>
+            <div style="background-image: url(e.jpg); background-size: cover;"></div>
+            <div style="background-image: url(book5.jpg); background-size: cover;"></div>
+            <div style="background-image: url(f.jpg); background-size: cover;"></div>
+            <div style="background-image: url(book6.jpg); background-size: cover;"></div>
+        </div>
+        <script>
+            $('#book').turn({gradients: true, acceleration: true});
+        </script>
+                
+        </section>  
+    
+    </main>
+    <footer>
+        <div id="aa">
+            <h1>2022作品集   設計:陳翌雋<br/></h1>
+            <h1>~作品集圖片皆為個人學習交流用，請勿盜用~</h1>
+        </div>
+        
+        <section class="links">
+            <a href="https://www.facebook.com/profile.php?id=100006282935844"><img src="./images/facebook.svg" alt="facebook"></a>
+            <a href="https://www.youtube.com/channel/UCs1S0CgsKTNjOVeJWyPDCYw"><img src="./images/youtube.svg" alt="youtube"></a>
+        </section>
+    </footer>
+</body>
+</html>
