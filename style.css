@@ -156,6 +156,10 @@ h3 {
   color: #d0d3d3;
 }
 
+h4 {
+  color: #e1e119;
+}
+
 /*適屏*/
 @media screen and (max-width: 550px) {
   #curve_chart {
