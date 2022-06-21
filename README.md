@@ -1,4 +1,4 @@
-# project3
+# project3 電子履歷
 目的：
 切版練習，RWD，試著加入.js實現動畫效果
 
