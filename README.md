@@ -5,6 +5,10 @@
 使用語言：
 Css html JavaScript
 
+使用工具:
+Visual Studio Code
+jquery.slim.min.map(書本翻頁效果)
+
 完成年份:
 2022(現已無使用)
 
