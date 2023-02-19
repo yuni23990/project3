@@ -1,6 +1,6 @@
 # project3 電子履歷範本
 目的：
-切版練習，RWD，試著加入.js實現動畫效果
+切版練習，RWD，試著加入.js實現書本翻頁動畫效果
 
 使用語言：
 Css html JavaScript
